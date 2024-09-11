@@ -12,4 +12,10 @@ const product = {
   }
   console.log(product["description"])
   console.log(product["rating"]["rate"])
+ 
+
+  product.id=2
+  console.log(product.id)
+  Object.freeze(product["id"])
+  console.log(product)
   
