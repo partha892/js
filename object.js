@@ -19,3 +19,9 @@ const product = {
   Object.freeze(product["id"])
   console.log(product)
   
+
+  const obj1 = {1:"one",2:'two'}
+  const obj2 = {3:"three",4:'four'}
+  const obj3 = Object.assign(obj1,obj2)
+  console.log(obj3)
+  
