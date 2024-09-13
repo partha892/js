@@ -37,3 +37,8 @@ if (Object.keys(obj).length === 0) {
 
 let val = undefined ?? 889
 console.log(val)
+
+
+let tern =100;
+
+tern == 70 ? console.log("less"):console.log("big")
