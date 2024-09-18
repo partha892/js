@@ -126,7 +126,7 @@ const product =[
     "category": "Groceries"
   },
   {
-    "id": 15,
+    "id": 14,
     "imgLink": "https://example.com/image15.jpg",
     "title": "iPhone 14 Pro Max",
     "description": "Apple's latest flagship smartphone with a 6.7-inch OLED display and A16 chip.",
@@ -137,6 +137,12 @@ const product =[
 ]
 
 
-product.forEach((item)=>{
-console.log(item.id)
+//product.forEach((item)=>{
+//console.log(item.id)
+//})
+
+
+const fillterall = product.filter((products)=>{
+  return products.id === 14
 })
+console.log(fillterall)
