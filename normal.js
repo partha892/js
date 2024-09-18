@@ -137,4 +137,6 @@ const product =[
 ]
 
 
-console.log(product)
+product.forEach((item)=>{
+console.log(item.id)
+})
