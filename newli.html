@@ -5,7 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    
+<body style="background-color:hwb(0 11% 79% / 0.864);">
+    <ul class="uilist" style="color: rgb(239, 236, 236);">
+      
+    </ul>
 </body>
+<script>
+function addlang(uilistName) {
+   const list = document.createElement("li");
+   list.innerHTML = `${uilistName}`;
+   document.querySelector('.uilist').appendChild(list);
+}
+addlang("Java");
+addlang("python")
+addlang("Ruby")
+addlang("TypeScript")
+//edit
+const fiststlen = document.querySelector("li:nth-child(1)")
+fiststlen.innerHTML="javascript"
+
+//remove
+const lastlen=document.querySelector("li:nth-child(2)")
+
+lastlen.remove()
+const midd=document.querySelector("li:last-child")
+
+midd.remove()
+</script>
 </html>
